@@ -11,8 +11,3 @@ The compilation and testing environment for Win11 is UCRT64, which can be instal
 	4. Add C:\msys64\ucrt64\bin (this is the default path) to the environment variables
 
 The Ubuntu 22.04 compiler test environment is GNU, which is installed by default in the operating system.
-
-The VScode runtime build and debug files are in the Windows 11 and Ubuntu 22.04 folders.
-To test in VScode, copy the .vscode folder from the folder to the Shell folder, and open it with VScode to test.
-
-If you have another preferred IDE, just import the original files from Shell into that IDE.
