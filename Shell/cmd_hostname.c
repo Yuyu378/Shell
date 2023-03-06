@@ -25,7 +25,6 @@ void cmd_hostname(char** input) {
 		idx = snprintf(input[0], CLSIZE, "/bin/%s", input[1]);
 		if ((err = access(input[0], F_OK)) == 0) {
 			idx += snprintf(input[0] + idx, (size_t)CLSIZE - idx, " %s", input[2]);
-			printf("%s\n", input[0]);
 			system(input[0]);
 		}
 		else printf("Hostname not found.\n\n");
